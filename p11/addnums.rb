@@ -1,0 +1,1 @@
+puts STDIN.read.split("\n").map(&:to_i).reduce(&:+)
